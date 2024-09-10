@@ -1,1 +1,2 @@
-# praktikum-framework-review
+# Ryan Jusniansyah
+# 2209106026
