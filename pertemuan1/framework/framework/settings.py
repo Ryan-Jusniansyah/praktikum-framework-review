@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "ais", #Untuk mendaftaran aplikasi
     "django_bootstrap5",
+    "django_seed"
 ]
 
 MIDDLEWARE = [
@@ -77,8 +78,12 @@ WSGI_APPLICATION = "framework.wsgi.application"
 
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
+        "ENGINE": "django.db.backends.mysql",
+        "NAME": 'ais',
+        "USER": 'root',
+        "PASSWORD": '',
+        "HOST": '127.0.0.1',
+        "PORT": '3306',
     }
 }
 
