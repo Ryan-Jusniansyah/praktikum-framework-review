@@ -1,7 +1,13 @@
 {% extends 'homepage/layout.html' %}
 {% block title %} Homepage {% endblock  %}
 {% block content %}
+{% load static %}
     <div class="hero bg-light p-5 rounded-lg m-3">
         <h1 class="display-4">Selamat Datang di Halaman Depan AIS</h1>
     </div>
+    
+    <div class="flex-justify-content-center">
+        <img src="{% static 'images/Kucing.jpg' %}">
+    </div>
+    
 {% endblock %}
