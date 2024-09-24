@@ -1,0 +1,7 @@
+:root{
+    --bs-primary: pink;
+}
+
+body{
+    background-color: var(--bs-primary);
+}
