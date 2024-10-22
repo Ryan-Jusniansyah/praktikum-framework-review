@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "ais", #Untuk mendaftaran aplikasi
     "django_bootstrap5",
-    "django_seed"
+    "django_seed",
+    "rest_framework",
 ]
 
 MIDDLEWARE = [
